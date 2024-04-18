@@ -133,6 +133,9 @@ function BookmarkFiles() {
     }
   }, [imdbID]);
 
+  console.log("IDS", IDs );
+  console.log("imdbID", imdbID );
+  console.log("Bookmark", bookmark )
   return (
     <div>
       {bookmark.length === 0 ? (
