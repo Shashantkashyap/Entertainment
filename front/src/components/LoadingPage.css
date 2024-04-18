@@ -1,0 +1,37 @@
+/* LoadingPage.css */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loader-container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .loader {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid #0690ed;
+    border-top-color: transparent;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loading-text {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+  }
+  

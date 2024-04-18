@@ -1,0 +1,10 @@
+.block {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  
+  .block {
+    opacity: 1;
+    transform: translateY(0);
+  }

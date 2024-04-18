@@ -1,0 +1,12 @@
+.movie-card {
+    position: relative;
+  }
+  
+  .movie-card .absolute {
+    display: none;
+  }
+  
+  .movie-card:hover .absolute {
+    display: block;
+  }
+  
