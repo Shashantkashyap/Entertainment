@@ -10,7 +10,7 @@ import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 
 function Movies() {
-  const BaseUri = "http://localhost:3000/api"
+  const BaseUri = "https://entertainment-p1n8.onrender.com/api"
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [hoveredIndex, setHoveredIndex] = useState(null); // State to track hovered movie index

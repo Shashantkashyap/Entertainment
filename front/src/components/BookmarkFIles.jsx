@@ -9,7 +9,7 @@ import { selectedCard } from "../redux/cardSlice";
 
 function BookmarkFiles() {
 
-  const BaseUri = "http://localhost:3000/api"
+  const BaseUri = "https://entertainment-p1n8.onrender.com/api"
   const [IDs, setIDs] = useState([]);
   const [imdbID, setImdbID] = useState([]);
   const [loading, setLoading] = useState(true);

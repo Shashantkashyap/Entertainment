@@ -10,7 +10,7 @@ import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 
 function Series() {
-  const BaseUri = "http://localhost:3000/api"
+  const BaseUri = "https://entertainment-p1n8.onrender.com/api"
   const [series, setSeries] = useState([]);
   const [loading, setLoading] = useState(true);
   const [hoveredIndex, setHoveredIndex] = useState(null); // State to track hovered series index

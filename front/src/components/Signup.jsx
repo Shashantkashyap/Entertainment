@@ -7,7 +7,7 @@ import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { FaRegEyeSlash } from "react-icons/fa";
 
 function SignupPage({ setActive }) {
-  const BaseUri = "http://localhost:3000/api";
+  const BaseUri = "https://entertainment-p1n8.onrender.com/api";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [repeatPassword, setRepeatPassword] = useState("");
