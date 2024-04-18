@@ -13,8 +13,7 @@ import {selectedSearch} from "../redux/searchSlice"
 
 function Home() {
 
-  console.log(localStorage.getItem("token"))
-
+ 
   const [trendingValue, setTrendingValue] = useState([]);
   const [recommendedValue, setRecommendedValue] = useState([]);
   const [loading, setLoading] = useState(true); // State to track loading
