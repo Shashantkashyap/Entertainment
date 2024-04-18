@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-server": "cd back && npm install",
+    "start-server": "cd back && node index.js",
+    "install-client": "cd front && npm install",
+    "build-client": "cd front && npm run build",
+    "start-client": "cd front && npm run dev"
   },
   "keywords": [],
   "author": "",
