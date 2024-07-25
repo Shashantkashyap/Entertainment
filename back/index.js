@@ -10,7 +10,7 @@ dbConnect();
 
 app.use(express.json());
 app.use(cors({
-    origin: "https://entertainment-front.onrender.com",
+    origin: "https://entertainment-neon.vercel.app",
     credentials: true
 }))
 
